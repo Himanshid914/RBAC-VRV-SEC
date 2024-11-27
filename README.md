@@ -1,15 +1,6 @@
-# User Management Role-Based Access Control (RBAC) System
+# Role-Based Access Control (RBAC) System
 
 This project is a simple **User Management System** built with **React-JS**. It allows you to manage users and roles in a table format, with the ability to add, edit, and delete users and roles. Each user has a **name**, **email**, **role**, and **status (active/inactive)**. The app stores user data in **localStorage**, so your data persists even after a page refresh.
-
-
-## Features
-
-- **Add Users**: You can easily add new users by filling out a form with their name, email, and role. The email is validated to ensure it's in the correct format before saving.
-- **Edit Users**: Existing users can be edited by clicking the "Edit" button in the user table. The form pre-fills with the user's details, and you can modify them.
-- **Delete Users**: You can delete users directly from the user table, which will permanently remove them from the system.
-- **Responsiveness**: The app is designed to work well on both desktop and mobile devices. Tables and forms adjust gracefully to different screen sizes.
-  
 
 ## Technologies Used
 
@@ -17,6 +8,17 @@ This project is a simple **User Management System** built with **React-JS**. It 
 - **Tailwind CSS** for styling and responsiveness
 - **localStorage** for persisting user data
 
+
+
+## Features
+
+- **User Management**: Create, update, and manage user profiles and their associated roles and permissions.
+- **Role Management**: Easily manage and assign roles to users.
+- **Dynamic Permission Adjustment**: Modify permissions for users or roles as needed.
+- **Advanced Filtering and Sorting**: Sort and filter users or roles by different criteria for quick access.
+- **Real-Time Validation**: Input validation with real-time feedback for errors or conflicts.
+- **Activity Logs**: Keeps track of all actions taken for audit purposes and compliance.
+- **Interactive Dashboard**: Intuitive UI for easy navigation through users and roles.
 
 ## How to Use
 
