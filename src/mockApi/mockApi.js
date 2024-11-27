@@ -2,7 +2,6 @@ let users = [
   { id: 1, name: "Harsh", email: "harsh@mail.com", role: "Admin" },
   { id: 2, name: "Harry", email: "harry@mail.com", role: "Editor" },
 ];
-
 export const getUsers = () => Promise.resolve(users);
 
 export const addUser = (user) => {

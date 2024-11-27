@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 function RoleForm({ onClose, onAdd }) {
   const [name, setName] = useState("");
   const [permissions, setPermissions] = useState([]);

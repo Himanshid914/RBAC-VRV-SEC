@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-
 function RoleTable() {
   const [roles, setRoles] = useState([]);
   const [showForm, setShowForm] = useState(false);

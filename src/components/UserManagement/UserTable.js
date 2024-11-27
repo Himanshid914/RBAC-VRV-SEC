@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import UserForm from "./UserForm";
-
 function UserTable() {
   const [users, setUsers] = useState([]);
   const [roles, setRoles] = useState([]);

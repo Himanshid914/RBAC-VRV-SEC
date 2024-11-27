@@ -34,6 +34,7 @@ function Dashboard() {
         {activeTab === "users" ? <UserTable /> : <RoleTable />}
       </div>
     </div>
+    
   );
 }
 
